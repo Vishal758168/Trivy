@@ -24,7 +24,7 @@ jobs:
 
       # 4️⃣ Scan with Trivy
       - name: Scan with Trivy
-        uses: aquasecurity/trivy-action@v0.35.0
+        uses: aquasecurity/trivy-action@v0.33.1
         with:
           image-ref: my-app:latest
           format: table
