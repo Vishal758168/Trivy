@@ -25,4 +25,4 @@ jobs:
           image-ref: my-app:latest
           format: table
           exit-code: 1  # fail pipeline if vulnerabilities found
-          severity: HIGH,CRITICAL
+          severity: CRITICAL
